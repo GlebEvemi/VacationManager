@@ -13,9 +13,3 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
-void MainWindow::on_pushButton_clicked()
-{
-    QString text = QString("Hello");
-    QMessageBox::information(this, "Vacation", text);
-}
